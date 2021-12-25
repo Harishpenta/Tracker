@@ -17,9 +17,11 @@ import com.demo.tracker.utils.Constants.REQUEST_CODE_LOCATION_PERMISSION
 import com.demo.tracker.utils.SortType
 import com.demo.tracker.utils.TrackingUtility
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_run.*
 import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class RunFragment : Fragment(R.layout.fragment_run), EasyPermissions.PermissionCallbacks {
