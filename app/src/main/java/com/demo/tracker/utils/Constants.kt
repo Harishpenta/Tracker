@@ -29,4 +29,6 @@ object Constants {
     const val KEY_FIRST_NAME = "KEY_FIRST_NAME"
     const val KEY_WEIGHT = "KEY_WEIGHT"
 
+    const val CANCEL_TRACKING_DIALOG = "CANCEL_DIALOG"
+
 }

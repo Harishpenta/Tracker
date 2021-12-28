@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         // TODO : this will find and set the Nav Host Fragment with the Bottom Navigation View
         bottomNavigationView.setupWithNavController(navHostFragment.findNavController())
+        bottomNavigationView.setOnNavigationItemReselectedListener { /* NO-OP */ }
 
         // TODO : To  Display Bottom Navigation View Only in the selected Fragments
         navHostFragment.findNavController().addOnDestinationChangedListener { _, destination, _ ->
